@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Font settings */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    /* Background and text color */
+    background-color: #5585b5;
+    color: #000000;
+    /* Reset margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Header styling */
+    background: #002D62;
+    color: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    /* Flexbox layout */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /* Transition effect */
+    transition: background 0.3s ease;
+}
+
+.nav-links {
+    /* Navigation links */
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-links ul {
+    /* Reset list styles */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    /* Styling for navigation links */
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    /* Styling for navigation links */
+    color: #fff;
+    text-decoration: none;
+    /* Transition effect */
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    /* Hover effect for navigation links */
+    color: #bbe4e9;
+}
+
+.bg-img {
+    /* Background image styling */
+    background-image: url("join.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Flexbox layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    /* Form container styling */
+    width: 100%;
+    padding: 16px;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    background-color: white;
+}
+
+input[type=text],
+input[type=password] {
+    /* Styling for text and password inputs */
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    /* Focus styling for text and password inputs */
+    background-color: #ddd;
+    outline: none;
+}
+
+textarea {
+    /* Textarea styling */
+    width: 100%;
+    resize: vertical;
+}
+
+.btn {
+    /* Button styling */
+    background-color: #002D62;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    /* Hover effect for buttons */
+    opacity: 1;
+}
+
+.purpose {
+    /* Container styling for fitness goal section */
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.purpose h2 {
+    /* Heading styling */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.purpose label {
+    /* Radio button label styling */
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.purpose input[type="radio"] {
+    /* Radio button styling */
+    margin-right: 0.5rem;
+}
+
+.purpose input[type="submit"] {
+    /* Submit button styling */
+    background-color: #002D62;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.purpose input[type="submit"]:hover {
+    /* Hover effect for submit button */
+    background-color: #53a8b6;
+}
+
+footer {
+    /* Footer styling */
+    background: #5585b5;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-1,
+.footer-2 {
+    /* Styling for footer sections */
+    margin-bottom: 1rem;
+}
+
+.footer-1 a,
+.footer-2 a {
+    /* Styling for footer links */
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}

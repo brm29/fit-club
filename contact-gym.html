@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title of the webpage -->
+    <title>FitClub - Contact Us</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="contact-gym.css">
+</head>
+
+<body>
+
+    <!-- Website header -->
+    <header>
+        <h1>FitClub</h1>
+        <!-- Navigation links -->
+        <nav>
+            <ul>
+                <li><a href="gym.html">Home</a></li>
+                <li><a href="about-gym.html">About</a></li>
+                <li><a href="contact-gym.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <!-- Contact information -->
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Feel free to reach out using the form below or visit us at our location.</p>
+        <h4>ADDRESS:</h4>
+        <p><strong>97 Miller Fall</strong></p>
+        <H4>CUSTOMER SERVICE:</H4>
+        <p><strong>0870-300-922</strong></p>
+        <h4>EMAIL:</h4>
+        <p><strong>getupandgo@gym.co.za</strong></p>
+        <!-- Image -->
+        <img src="contact.jpg" alt="">
+    </div>
+
+    <!-- Background image for the form -->
+    <div class="bg-img">
+        <form action="./gym.html" method="post" class="form-container">
+            <!-- Form inputs -->
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="First Name" required/><br/><br/>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Last Name" required/><br/><br/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@gmail.com" required/><br/><br/>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject"/><br/><br/>
+            <label for="message">Message:</label><br/>
+            <textarea id="message" rows="4" cols="50" required></textarea><br/><br/>
+            <input type="submit" class="btn" value="Call back request"/>
+        </form>
+    </div>
+
+    <!-- Fitness goal section -->
+    <div class="purpose">
+        <h2>What is your fitness goal?</h2>
+        <!-- Radio buttons for fitness goals -->
+        <input type="radio" id="goal-1" name="fitness-goal">
+        <label for="goal-1">Lose Weight</label>
+
+        <input type="radio" id="goal-2" name="fitness-goal">
+        <label for="goal-2">Build Muscle</label>
+
+        <input type="radio" id="goal-3" name="fitness-goal">
+        <label for="goal-3">Focus On My Well-being</label>
+
+        <input type="radio" id="goal-4" name="fitness-goal">
+        <label for="goal-4">Get Fit</label>
+
+        <input type="radio" id="goal-5" name="fitness-goal">
+        <label for="goal-5">Tone</label>
+
+        <input type="radio" id="goal-6" name="fitness-goal">
+        <label for="goal-6">Maintain</label>
+
+        <input type="submit" value="Call-back Request">
+
+        </form>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

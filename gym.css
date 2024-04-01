@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Font settings */
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  /* Background and text color */
+  background-color: #5585b5;
+  color: #000000;
+  /* Reset margin and padding */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* Header styling */
+  background: #002D62;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  /* Flexbox layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  /* Transition effect */
+  transition: background 0.3s ease;
+}
+
+.nav-links {
+  /* Navigation links */
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-links ul {
+  /* Reset list styles */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  /* Styling for navigation links */
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  /* Styling for navigation links */
+  color: #fff;
+  text-decoration: none;
+  /* Transition effect */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  /* Hover effect for navigation links */
+  color: #bbe4e9;
+}
+
+.welcome {
+  /* Welcome section styling */
+  display: grid;
+  /* Grid layout */
+  grid-template-columns: 1fr;
+  /* Single column for all elements */
+  grid-gap: 2rem;
+  /* Adds space between elements */
+  padding: 2rem;
+  /* Adds padding around the content */
+  text-align: center;
+  /* Centers text within elements */
+}
+
+.welcome h1 {
+  /* Styling for welcome heading */
+  margin-bottom: 1rem;
+  /* Adds space between heading and paragraph */
+}
+
+.welcome p {
+  /* Styling for welcome paragraph */
+  line-height: 1.6;
+  /* Increases line spacing for better readability */
+}
+
+.welcome img {
+  /* Styling for welcome image */
+  max-width: 100%;
+  /* Ensures image doesn't overflow */
+  margin: 0 auto;
+  /* Centers image horizontally */
+}
+
+.welcome button {
+  /* Styling for welcome button */
+  background: #53a8b6;
+  /* Sets button background color */
+  color: #fff;
+  /* Sets button text color */
+  border: none;
+  /* Removes button border */
+  padding: 0.5rem 1rem;
+  /* Sets button padding */
+  cursor: pointer;
+  /* Changes cursor to pointer on hover */
+  margin-top: 1rem;
+  /* Adds space between paragraph and button */
+}
+
+.price-plans-container {
+  /* Container for price plans */
+  display: flex;
+  /* Flexbox layout */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+  text-align: center;
+  /* Center text */
+}
+
+.plans-intro,
+.plans-outro {
+  /* Styling for plans intro and outro sections */
+  display: flex;
+  /* Flexbox layout */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+  margin: 10px;
+  /* Adds margin */
+}
+
+.price-plans {
+  /* Styling for price plans */
+  display: flex;
+  /* Flexbox layout */
+  justify-content: space-between;
+  /* Distribute space between cards */
+  flex-wrap: nowrap;
+  /* Prevent cards from wrapping */
+}
+
+.card {
+  /* Styling for pricing cards */
+  background-color: #fff;
+  /* Sets card background color */
+  border-radius: 5px;
+  /* Adds rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Adds subtle shadow */
+  margin: 1rem;
+  /* Adds margin */
+  padding: 1.5rem;
+  /* Adds padding */
+  text-align: center;
+  /* Center text */
+  width: 25rem;
+  /* Sets card width */
+}
+
+.card h4 {
+  /* Styling for card heading */
+  margin-bottom: 1rem;
+  /* Adds space between heading and list */
+  font-size: 1.2rem;
+  /* Adjust heading size */
+  font-weight: bold;
+  /* Makes heading bold */
+}
+
+.card ul {
+  /* Styling for card list */
+  list-style: none;
+  /* Removes default bullet points */
+  padding: 0;
+  /* Removes default padding */
+  margin: 0;
+  /* Removes default margin */
+}
+
+.card li {
+  /* Styling for list items */
+  margin-bottom: 0.5rem;
+  /* Adds space between list items */
+}
+
+.card button {
+  /* Styling for card buttons */
+  background-color: #53a8b6;
+  /* Sets button background color */
+  color: #fff;
+  /* Sets button text color */
+  border: none;
+  /* Removes default border */
+  padding: 0.75rem 1.5rem;
+  /* Sets button padding */
+  cursor: pointer;
+  /* Changes cursor to pointer on hover */
+  transition: background 0.3s ease;
+  /* Smooth background transition on hover */
+  margin-top: 1rem;
+  /* Adds space between list and button */
+  border-radius: 7%;
+}
+
+.card button:hover {
+  /* Hover effect for card buttons */
+  background-color: #002D62;
+  /* Background color on hover */
+}
+
+footer {
+  /* Footer styling */
+  background: #5585b5;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-1,
+.footer-2 {
+  /* Styling for footer sections */
+  margin-bottom: 1rem;
+}
+
+.footer-1 a,
+.footer-2 a {
+  /* Styling for footer links */
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+}
