@@ -36,8 +36,8 @@ header {
 
 .nav-links {
     /* Navigation links */
-    flex: 2;
     display: flex;
+    flex: 2;
     flex-direction: row;
     justify-content: flex-end;
 }
@@ -78,7 +78,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     /* Flexbox layout */
     display: flex;
     flex-direction: column;
@@ -90,7 +89,6 @@ header {
     /* Form container styling */
     width: 100%;
     padding: 16px;
-    position: absolute;
     right: 0;
     margin: 20px;
     max-width: 300px;
