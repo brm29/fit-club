@@ -67,6 +67,10 @@ header {
     color: #bbe4e9;
 }
 
+.contact {
+   text-align: center;
+}
+
 .bg-img {
     /* Background image styling */
     background-image: url("join.jpg");
